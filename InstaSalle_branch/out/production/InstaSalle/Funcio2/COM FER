@@ -1,0 +1,14 @@
+"Es a dir, si es trob´es una nova soluci´o tal que la difer`encia entre l’equitativitat de la millor ´
+ soluci´o trobada amb la nova fos inferior a aquesta toler`ancia, i la nova soluci´o presenta una millor
+ distribuci´o dels usuaris pel que fa a la localitzaci´o, aquesta passar`a a ser la millor. Aquesta
+ toler`ancia es definir`a per l’alumne."
+
+
+ Per tant nosaltres podem fer totes les solucions, les que no tenen equitivitat les descartem directament.
+ En cas de que la equitivitat sigui dins dels valors de tolerancia, tindrem un valor, igual que el que calcula la equitivitat pero per la localitzacio.
+ En aquest valor anem sumant la distancia ente usuari i servidor.
+ Per tant si esta dins dels marges d'equitivitat, haurem de agafar la solució que minimitzi el valor de la suma de distancia de la solucio.
+
+
+ Cal que modifiquem el dataset++ de forma que afegim nodes i servers, sino els temps en el primer problema son massa baixos per poder generar els gràfics, i al
+ enunciat tambe possen molt que caldria ferte els teus datasets. A metodes de testeig ja he explicat que hem modificat el dataset++ per fer aixo.

@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "reliability": 0.5,
+    "connectsTo": [
+      {
+        "to": 5,
+        "name": "c15", 
+        "cost": 2
+      },
+      {
+        "to": 3,
+        "name": "c13", 
+        "cost": 3
+      },
+      {
+        "to": 2,
+        "name": "c12", 
+        "cost": 9
+      }
+
+    ]
+  },
+  {
+    "id": 2,
+    "reliability": 0.85,
+    "connectsTo": [
+      {
+        "to": 6,
+        "name": "c26", 
+        "cost": 5
+      }, 
+      {
+        "to": 1,
+        "name": "c12", 
+        "cost": 9
+      }
+
+    ]
+  },
+  {
+    "id": 3,
+    "reliability": 0.25,
+    "connectsTo": [
+      {
+        "to": 4,
+        "name": "c34", 
+        "cost": 5
+      },
+      {
+        "to": 7,
+        "name": "c37", 
+        "cost": 3
+      },
+      {
+        "to": 5,
+        "name": "c35", 
+        "cost": 3
+      },
+      {
+        "to": 1,
+        "name": "c13", 
+        "cost": 3
+      }
+
+    ]
+  },
+  {
+    "id": 4,
+    "reliability": 0.05,
+    "connectsTo": [
+      {
+        "to": 6,
+        "name": "c46", 
+        "cost": 3
+      }, 
+      {
+        "to": 3,
+        "name": "c34", 
+        "cost": 5
+      }
+    ]
+  },
+   {
+    "id": 5,
+    "reliability": 0.15,
+    "connectsTo": [
+      {
+        "to": 7,
+        "name": "c57", 
+        "cost": 8
+      },
+      {
+        "to": 8,
+        "name": "c58", 
+        "cost": 1
+      }, 
+      {
+        "to": 3,
+        "name": "c35", 
+        "cost": 3
+      },
+      {
+        "to": 1,
+        "name": "c15", 
+        "cost": 2
+      }
+
+    ]
+  },
+   {
+    "id": 6,
+    "reliability": 0.95,
+    "connectsTo": [
+      {
+        "to": 9,
+        "name": "c69", 
+        "cost": 4
+      },
+      {
+        "to": 2,
+        "name": "c26", 
+        "cost": 5
+      },
+      {
+        "to": 4,
+        "name": "c46",
+        "cost": 3
+      }
+
+    ]
+  },
+  {
+    "id": 7,
+    "reliability": 0.25,
+    "connectsTo": [
+      {
+        "to": 9,
+        "name": "c79",
+        "cost": 4
+      },
+      {
+        "to": 3,
+        "name": "c37", 
+        "cost": 3
+      },
+      {
+        "to": 5,
+        "name": "c57", 
+        "cost": 8
+      }
+
+    ]
+  },
+   {
+    "id": 8,
+    "reliability": 0.15,
+    "connectsTo": [
+      {
+        "to": 10,
+        "name": "c810", 
+        "cost": 9
+      },
+      {
+        "to": 5,
+        "name": "c58", 
+        "cost": 1
+      }
+
+    ]
+  },
+  {
+    "id": 9,
+    "reliability": 0.15,
+    "connectsTo": [
+      {
+        "to": 7,
+        "name": "c79",
+        "cost": 4
+      },
+      {
+        "to": 6,
+        "name": "c69", 
+        "cost": 4
+      },
+      {
+        "to": 10,
+        "name": "c910", 
+        "cost": 1
+      }
+
+    ]
+  },
+  {
+    "id": 10,
+    "reliability": 0.75,
+    "connectsTo": [
+      {
+        "to": 9,
+        "name": "c910", 
+        "cost": 1
+      },
+      {
+        "to": 8,
+        "name": "c810", 
+        "cost": 9
+      }
+
+    ]
+  }
+]

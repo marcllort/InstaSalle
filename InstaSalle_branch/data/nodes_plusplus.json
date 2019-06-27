@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "reliability": 0.5,
+    "connectsTo": [
+      {
+        "to": 5,
+        "name": "c15", 
+        "cost": 2
+      },
+      {
+        "to": 2,
+        "name": "c12", 
+        "cost": 9
+      },
+      {
+        "to": 11,
+        "name": "c111",
+        "cost": 2
+      }
+
+    ]
+  },
+  {
+    "id": 2,
+    "reliability": 0.85,
+    "connectsTo": [
+      {
+        "to": 6,
+        "name": "c26", 
+        "cost": 5
+      }, 
+      {
+        "to": 1,
+        "name": "c12", 
+        "cost": 9
+      },
+      {
+        "to": 11,
+        "name": "c211",
+        "cost": 2
+      }
+
+    ]
+  },
+  {
+    "id": 3,
+    "reliability": 0.25,
+    "connectsTo": [
+      {
+        "to": 4,
+        "name": "c34", 
+        "cost": 5
+      },
+      {
+        "to": 11,
+        "name": "c113",
+        "cost": 6
+      },
+      {
+        "to": 13,
+        "name": "c313",
+        "cost": 4
+      }
+
+    ]
+  },
+  {
+    "id": 4,
+    "reliability": 0.05,
+    "connectsTo": [
+      {
+        "to": 6,
+        "name": "c46", 
+        "cost": 3
+      }, 
+      {
+        "to": 3,
+        "name": "c34", 
+        "cost": 5
+      },
+      {
+        "to": 13,
+        "name": "c413",
+        "cost": 6
+      }
+    ]
+  },
+   {
+    "id": 5,
+    "reliability": 0.15,
+    "connectsTo": [
+      {
+        "to": 7,
+        "name": "c57", 
+        "cost": 8
+      },
+      {
+        "to": 8,
+        "name": "c58", 
+        "cost": 1
+      },
+      {
+        "to": 1,
+        "name": "c15", 
+        "cost": 2
+      },
+
+      {
+        "to": 12,
+        "name": "c125",
+        "cost": 2
+      }
+
+    ]
+  },
+   {
+    "id": 6,
+    "reliability": 0.95,
+    "connectsTo": [
+      {
+        "to": 9,
+        "name": "c69", 
+        "cost": 4
+      },
+      {
+        "to": 2,
+        "name": "c26", 
+        "cost": 5
+      },
+      {
+        "to": 4,
+        "name": "c46",
+        "cost": 3
+      }
+
+    ]
+  },
+  {
+    "id": 7,
+    "reliability": 0.25,
+    "connectsTo": [
+      {
+        "to": 9,
+        "name": "c79",
+        "cost": 4
+      },
+      {
+        "to": 5,
+        "name": "c57", 
+        "cost": 8
+      },
+      {
+        "to": 13,
+        "name": "c713",
+        "cost": 5
+      }
+
+    ]
+  },
+   {
+    "id": 8,
+    "reliability": 0.15,
+    "connectsTo": [
+      {
+        "to": 10,
+        "name": "c810", 
+        "cost": 9
+      },
+      {
+        "to": 5,
+        "name": "c58", 
+        "cost": 1
+      }
+
+    ]
+  },
+  {
+    "id": 9,
+    "reliability": 0.15,
+    "connectsTo": [
+      {
+        "to": 7,
+        "name": "c79",
+        "cost": 4
+      },
+      {
+        "to": 6,
+        "name": "c69", 
+        "cost": 4
+      },
+      {
+        "to": 10,
+        "name": "c910", 
+        "cost": 1
+      }
+
+    ]
+  },
+  {
+    "id": 10,
+    "reliability": 0.75,
+    "connectsTo": [
+      {
+        "to": 9,
+        "name": "c910", 
+        "cost": 1
+      },
+      {
+        "to": 8,
+        "name": "c810", 
+        "cost": 9
+      }
+
+    ]
+  },
+
+  {
+    "id": 11,
+    "reliability": 0.4,
+    "connectsTo": [
+      {
+        "to": 3,
+        "name": "c113",
+        "cost": 6
+      },
+      {
+        "to": 8,
+        "name": "c810",
+        "cost": 9
+      },
+      {
+        "to": 2,
+        "name": "c211",
+        "cost": 2
+      },
+      {
+        "to": 1,
+        "name": "c111",
+        "cost": 2
+      },
+      {
+        "to": 12,
+        "name": "c1112",
+        "cost": 3
+      }
+
+
+    ]
+  },
+  {
+    "id": 12,
+    "reliability": 0.6,
+    "connectsTo": [
+      {
+        "to": 11,
+        "name": "c1112",
+        "cost": 3
+      },
+      {
+        "to": 13,
+        "name": "c1213",
+        "cost": 2
+      },
+      {
+        "to": 5,
+        "name": "c125",
+        "cost": 2
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "reliability": 0.8,
+    "connectsTo": [
+      {
+        "to": 12,
+        "name": "c1213",
+        "cost": 2
+      },
+      {
+        "to": 3,
+        "name": "c313",
+        "cost": 4
+      },
+      {
+        "to": 4,
+        "name": "c413",
+        "cost": 6
+      },
+
+      {
+        "to": 7,
+        "name": "c713",
+        "cost": 5
+      }
+    ]
+  }
+]
